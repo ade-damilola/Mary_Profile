@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="me.jpg" alt="Profile picture">
+      <h1 class="username">Adedigba Mary</h1>
+      <p class="bio">Web developer</p>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam aperiam praesentium quidem illo explicabo voluptates qui perferendis ad nobis aliquid?</p> 
+       </div>
+       <div id="root">
+        <h2>Contact info</h2>
+        <ul>
+          <li>Email: oluwatobilobaadedigba73@gmail.com</li>
+          <li>Phone: +2348069069741</li>
+          <li>Location: Lagos, Nigeria</li>
+        </ul>
+       </div>
+
+       <!-- React library -->
+       <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+       <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+     
+       <!-- Your bundled React code -->
+       <script src="my-react-app/src/index.js"></script>
+       <script>
+         ReactDOM.render(React.createElement(Profile), document.getElementById('root'));
+       </script>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
